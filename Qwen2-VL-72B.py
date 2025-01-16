@@ -4,9 +4,9 @@
 
 # install necessary packages
 
-!pip install git+https://github.com/huggingface/transformers
-!pip install qwen-vl-utils
-!pip install --upgrade git+https://github.com/huggingface/transformers.git
+pip install git+https://github.com/huggingface/transformers
+pip install qwen-vl-utils
+pip install --upgrade git+https://github.com/huggingface/transformers.git
 
 # import packages
 
