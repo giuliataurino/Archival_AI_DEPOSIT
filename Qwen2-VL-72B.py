@@ -1,4 +1,4 @@
-#Qwen2-VL-72B
+# Qwen2-VL-72B
 
 # Code source: https://huggingface.co/Qwen/Qwen2-VL-72B-Instruct\; https://huggingface.co/spaces/maxiw/Qwen2-VL-Detection
 
