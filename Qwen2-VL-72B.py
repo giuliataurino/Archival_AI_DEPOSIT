@@ -24,7 +24,7 @@ model = Qwen2VLForConditionalGeneration.from_pretrained(
     "Qwen/Qwen2-VL-72B-Instruct", torch_dtype="auto", device_map="auto"
 )
 
-# We recommend enabling flash_attention_2 for better acceleration and memory saving, especially in multi-image and video scenarios.
+# Enabling flash_attention_2 for better acceleration and memory saving, especially in multi-images
 # model = Qwen2VLForConditionalGeneration.from_pretrained(
 #     "Qwen/Qwen2-VL-72B-Instruct",
 #     torch_dtype=torch.bfloat16,
@@ -67,7 +67,7 @@ inputs = processor(
 )
 inputs = inputs.to("cuda")
 
-# Inference: Generation of the output
+# Inference: generation of the output
 generated_ids = model.generate(**inputs, max_new_tokens=128)
 generated_ids_trimmed = [
     out_ids[len(in_ids) :] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)
@@ -77,7 +77,7 @@ output_text = processor.batch_decode(
 )
 print(output_text)
 
-# Messages containing multiple images and a text query
+# messages containing multiple images and a text query
 messages = [
     {
         "role": "user",
@@ -89,7 +89,7 @@ messages = [
     }
 ]
 
-# Preparation for inference
+# preparation for inference
 text = processor.apply_chat_template(
     messages, tokenize=False, add_generation_prompt=True
 )
@@ -103,7 +103,7 @@ inputs = processor(
 )
 inputs = inputs.to("cuda")
 
-# Inference
+# inference
 generated_ids = model.generate(**inputs, max_new_tokens=128)
 generated_ids_trimmed = [
     out_ids[len(in_ids) :] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)
