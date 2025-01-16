@@ -2,11 +2,19 @@
 
 # Code source: https://huggingface.co/Qwen/Qwen2-VL-72B-Instruct\; https://huggingface.co/spaces/maxiw/Qwen2-VL-Detection
 
+# 1. Installing Qwen2-VL
+
+# GPUs
+
+nvidia-smi
+
 # install necessary packages
 
 pip install git+https://github.com/huggingface/transformers
 pip install qwen-vl-utils
 pip install --upgrade git+https://github.com/huggingface/transformers.git
+
+# 2.  Qwen2-VL for Image Description
 
 # import packages
 
