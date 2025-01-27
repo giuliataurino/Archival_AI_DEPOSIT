@@ -108,7 +108,7 @@ if __name__ == "__main__":
     print(f"First back image: {images_back[0]}")
 
     #Model initialization
-    model_path = "Qwen/Qwen2-VL-72B-Instruct"
+    model_path = "Qwen/Qwen2-VL-7B-Instruct" #Switch to 72B model on GPU Cluster
     model = Qwen2VLForConditionalGeneration.from_pretrained(
     model_path, torch_dtype="auto", device_map="auto")
 
