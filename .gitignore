@@ -1,0 +1,97 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Model weights and cache
+*.pth
+*.pt
+*.bin
+.cache/
+pretrained_models/
+model_outputs/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Data and images
+/path/to/images/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+#Test Datasets
+VLM_Research_Paper/
+
+#Raw Model
+Qwen2-VL-7B-Instruct/
+Test_Image_Sets/100_front-and-back/manifest.xlsx
+Test_Image_Sets/100_front-only_jpgs/100_front-only/manifest.xlsx
