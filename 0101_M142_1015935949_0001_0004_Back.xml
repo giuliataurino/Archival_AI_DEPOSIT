@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2024-02-21T17:22:41.617+01:00</Created>
+        <LastChange>2024-06-11T19:24:05.888+02:00</LastChange>
+        <TranskribusMetadata docId="1836482" pageId="65623675" pageNr="101" tsid="171589782" status="DONE" userId="119831" imgUrl="https://files.transkribus.eu/Get?id=QMMVPARPAYOKCROPDLAGOTHF&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=IOBPKRBZCLRXLPSIUJUHMGYT" imageId="52495176"/>
+    </Metadata>
+    <Page imageFilename="0101_M142_1015935949_0001_0004_Back.png" imageWidth="1500" imageHeight="1083">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1718381785525" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r"/>
+                <RegionRefIndexed index="1" regionRef="r_9"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <Relations/>
+        <TextRegion id="r" custom="readingOrder {index:0;}">
+            <Coords points="229,35 537,35 537,124 507,124 229,124"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="290,121 290,121 520,118 524,106 522,53 287,63"/>
+                <Baseline points="290,117 290,117 520,115"/>
+                <TextEquiv>
+                    <Unicode>58.10180</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_9" custom="readingOrder {index:1;}">
+            <Coords points="229,164 1472,164 1472,1043 229,1043"/>
+            <TextLine id="l_51" custom="readingOrder {index:0;}">
+                <Coords points="888,217 1050,231 1055,195 889,181"/>
+                <Baseline points="888,213 1050,228"/>
+                <TextEquiv>
+                    <Unicode>PHOTO BY</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_37" custom="readingOrder {index:1;}">
+                <Coords points="362,247 657,259 672,214 364,193"/>
+                <Baseline points="362,243 657,256"/>
+                <TextEquiv>
+                    <Unicode>GLOBE PHOTO BY</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_65" custom="readingOrder {index:2;}">
+                <Coords points="812,250 1097,272 1107,232 814,211"/>
+                <Baseline points="812,246 1097,269"/>
+                <TextEquiv>
+                    <Unicode>ULRIKE WELSCH</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_79" custom="readingOrder {index:3;}">
+                <Coords points="353,332 741,347 740,307 358,284"/>
+                <Baseline points="353,328 741,344"/>
+                <TextEquiv>
+                    <Unicode>DATE NEGATIVE TAKEN</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_93" custom="readingOrder {index:4;}">
+                <Coords points="912,367 1111,385 1116,342 911,319"/>
+                <Baseline points="912,363 1111,382"/>
+                <TextEquiv>
+                    <Unicode>JULY 22 1975</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_107" custom="readingOrder {index:5;}">
+                <Coords points="351,414 590,424 604,382 351,367"/>
+                <Baseline points="351,410 588,420"/>
+                <TextEquiv>
+                    <Unicode>FOR STORY BY</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_247" custom="readingOrder {index:6;}">
+                <Coords points="1121,436 1215,542 1243,526 1141,402"/>
+                <Baseline points="1121,433 1215,538"/>
+                <TextEquiv>
+                    <Unicode>FEB 19 1987</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_219" custom="readingOrder {index:7;}">
+                <Coords points="761,470 835,354 806,329 724,448"/>
+                <Baseline points="761,467 835,350"/>
+                <TextEquiv>
+                    <Unicode>JULY 25 1975</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_121" custom="readingOrder {index:8;}">
+                <Coords points="344,497 700,511 700,479 344,455"/>
+                <Baseline points="344,493 700,508"/>
+                <TextEquiv>
+                    <Unicode>DATE PICTURE USED</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_233" custom="readingOrder {index:9;}">
+                <Coords points="879,511 1028,472 1018,437 868,476"/>
+                <Baseline points="883,499 1018,468"/>
+                <TextEquiv>
+                    <Unicode>NOV 5 1977</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_135" custom="readingOrder {index:10;}">
+                <Coords points="338,590 1179,651 1183,588 333,534"/>
+                <Baseline points="338,580 1181,621"/>
+                <TextEquiv>
+                    <Unicode>SUBJECT (L TO R) FULL MOON JULY 23</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_149" custom="readingOrder {index:11;}">
+                <Coords points="363,649 951,678 960,640 359,605"/>
+                <Baseline points="363,645 951,674"/>
+                <TextEquiv>
+                    <Unicode>SKY LINE from BU BRIDGE</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_163" custom="readingOrder {index:12;}">
+                <Coords points="360,705 1449,785 1450,752 355,668"/>
+                <Baseline points="360,702 1449,781"/>
+                <TextEquiv>
+                    <Unicode>WITH 105 mm lens, double exposure on one negative!</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_177" custom="readingOrder {index:13;}">
+                <Coords points="364,774 1274,826 1280,781 365,736"/>
+                <Baseline points="364,771 1274,822"/>
+                <TextEquiv>
+                    <Unicode>MOON Yeke on top with 500 mm lens.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_191" custom="readingOrder {index:14;}">
+                <Coords points="321,883 1188,934 1190,827 331,780"/>
+                <Baseline points="328,856 1188,897"/>
+                <TextEquiv>
+                    <Unicode>LIBRARY INDEXED BOSTON SKYLINE</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_205" custom="readingOrder {index:15;}">
+                <Coords points="1193,901 1189,897 1181,900 1184,904"/>
+                <Baseline points="1193,897 1189,893"/>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

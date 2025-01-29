@@ -95,3 +95,7 @@ VLM_Research_Paper/
 Qwen2-VL-7B-Instruct/
 Test_Image_Sets/100_front-and-back/manifest.xlsx
 Test_Image_Sets/100_front-only_jpgs/100_front-only/manifest.xlsx
+
+#xml files
+page/
+page/0001_M142_1015935949_0001_0004_Front.xml
