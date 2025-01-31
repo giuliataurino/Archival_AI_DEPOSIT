@@ -1,6 +1,6 @@
-# Archival_AI_DEPOSIT
+# Archival_AI_DePOSIT
 
-Archival AI DEscription Pipeline for Open-Source Image Tagging
+Archival AI Description Pipeline for Open-Source Image Tagging
 
 Developed by Giulia Taurino, Ph.D. and Shoumik Majumdar
 
