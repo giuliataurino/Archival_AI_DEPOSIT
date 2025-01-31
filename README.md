@@ -6,7 +6,7 @@ Developed by Giulia Taurino, Ph.D. and Shoumik Majumdar
 
 Visual Language Models (VLMs) are multimodal AI models that can be used for tasks like image tagging and captioning, visual question answering, and text transcription. This repository contains a pipeline that leverage open-source VLMs to automatically generate detailed descriptions of archival materials, such as historical photographs from journalism collections. Through “image re-prompting” (Kaduri et al. 2024), this pipeline allows to extract key information like authors, dates, locations, people portrayed, and events directly from the record itself, significantly improving the discoverability and accessibility of archival collections via automated metadata extraction.
 
-Key components of AI DEPOSIT:
+Key components of AI DePOSIT:
 
 1. Preprocessing: cleaning and structuring the data by removing noise, file format conversion
 2. Data ingestion: the initial step where digital archival materials are ingested into the VLMs system;
@@ -15,7 +15,7 @@ Key components of AI DEPOSIT:
 5. Qualitative evaluation: a human archivist reviews the generated metadata to ensure accuracy, address potential errors, and suggest necessary adjustments. This feedback is used for A/B testing and paired with other evaluation metrics to assess model's accuracy;
 6. Model training: training VLMs on large datasets of annotated archival materials to learn patterns and associations between visual or textual features and corresponding metadata. [extra step] 
 
-Potential benefits of AI DEPOSIT:
+Potential benefits of AI DePOSIT:
 
 1. Increased efficiency: automating metadata creation significantly reduces the time and labor required to catalog large collections;
 2. Improved discoverability: Richer and more accurate metadata improves the ability of researchers to find relevant archival materials through search functions;
